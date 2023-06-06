@@ -4,11 +4,12 @@ This repository contains a simple command-line implementation of the popular gam
 # Features
 Players can choose their moves by entering 'r' for Rock, 'p' for Paper, or 's' for Scissors.
 The bot opponent, RockBot, makes its moves based on a simple strategy.
-Players can change their name during the game by pressing 'n' and entering a new name (without spaces).
 The game tracks the scores of both the player and the bot.
 The final scores are displayed at the end of the game.
 The game results are saved to a file called game_results.txt.
 The game logs are saved to a file called game_logs.txt.
+The name you have choosen at the start is saved to a file called player_name.txt
+The files will get created over specific events while playing the game, so don't worry if you don't instantly see it.
 
 # Getting Started
 To play the game, follow these steps:
