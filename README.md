@@ -26,7 +26,7 @@ Follow the on-screen instructions to play Rock-Paper-Scissors.
 
 # Customization
 ### Changing Player Name
-You can change your name during the game by pressing 'n' and entering a new name. The name should not contain spaces.
+~~You can change your name during the game by pressing 'n' and entering a new name. The name should not contain spaces.~~ Still need to fix a bug, so this feature will come back when I have time.
 
 ### Checking Game Results
 After playing the game, you can check the game results by opening the game_results.txt file. It contains the final scores of the player and the bot.
