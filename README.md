@@ -17,7 +17,8 @@ To play the game, follow these steps:
 Clone the repository to your local machine using the following command:
 
 git clone https://github.com/sammyat/rock-paper-scissors.git
-Compile the source code using a C++ compiler of your choice.
+
+Compile the source code using a C++ compiler of your choice, I recommend Visual Studio
 
 Run the compiled executable to start the game.
 
