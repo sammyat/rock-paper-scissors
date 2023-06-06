@@ -22,13 +22,13 @@ Run the compiled executable to start the game.
 Follow the on-screen instructions to play Rock-Paper-Scissors.
 
 # Customization
-** Changing Player Name**
+## Changing Player Name
 You can change your name during the game by pressing 'n' and entering a new name. The name should not contain spaces.
 
-** Checking Game Results**
+## Checking Game Results
 After playing the game, you can check the game results by opening the game_results.txt file. It contains the final scores of the player and the bot.
 
-** Viewing Game Logs **
+## Viewing Game Logs
 The game logs are saved in the game_logs.txt file. It includes information such as the player's name and the final scores. You can review this file to track the game history.
 
 # License
