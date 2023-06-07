@@ -112,6 +112,12 @@ string getPlayerName(const string& filename) {
     }
 }
 
+void changeName(string& playerName) {
+    cout << "Enter your new name: ";
+    getline(cin, playerName);
+    playerName = sanitizeName(playerName);
+}
+
 int main() {
     vector<Move> opponentMoves;
     int playerScore = 0;
@@ -137,7 +143,7 @@ int main() {
     }
 
     cout << "Welcome to Rock-Paper-Scissors, " << playerName << "!\n";
-    cout << "Enter 'r' for Rock, 'p' for Paper, or 's' for Scissors. Enter 'q' to quit.\n";
+    cout << "Enter 'r' for Rock, 'p' for Paper, or 's' for Scissors. Enter 'q' to quit. Enter 'c' to change name.\n";
 
     while (true) {
         string input;
@@ -146,6 +152,13 @@ int main() {
 
         if (input == "q" || input == "Q")
             break;
+
+        if (input == "c" || input == "C") {
+            changeName(playerName);
+            savePlayerName(playerNameFile, playerName);
+            cout << "Name changed successfully. New name: " << playerName << endl;
+            continue;
+        }
 
         if (input != "r" && input != "R" && input != "p" && input != "P" && input != "s" && input != "S") {
             cout << "Invalid input. Please try again.\n";
